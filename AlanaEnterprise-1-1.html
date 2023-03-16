@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+<title>Alana Enterprise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #07133c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(9, 17, 55);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(8, 11, 46);
+  color: rgb(255, 255, 255);
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: rgb(7, 11, 36);
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {-ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;}
+
+/* Main column */
+.main {-ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: rgb(28, 41, 117);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(2, 7, 37);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Alana Enterprise</h1>
+  <p><b>Aty ku gjeni profesionistët më të mirë të ligjit.</b></p>
+</div>
+
+<div class="navbar">
+  <a href="file:///Users/admin/Desktop/alana/ourservices.html">Shërbimet tona</a>
+  <a href="file:///Users/admin/Desktop/alana/aboutus.html">Rreth nesh</a>
+  <a href="file:///Users/admin/Desktop/alana/ContactUs.html">Na kontaktoni</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Kompania jonë</h2>
+    <p>Një ndërtesë me qindra punonjës të kualifikuar.</p>
+    <img src="foto8.jpg" style="height: 200px;"></br>
+    <h2>Zyrat tona</h2>
+    <p>Komode dhe me teknologjinë e fundit</p>
+    <img src="foto10.jpg" style="height: 200px;"></br>
+<img src="foto11.jpg" style="height: 200px;">
+<img src="foto12.jpg" style="height: 200px;">
+</div>
+    
+
+    </div>
+
+  <div class="main">
+    <div class="main">
+    <h2>Çështjet më të fundit</h2>
+    <h5>Dhelpra, Dec 7, 2022</h5>
+    <img src="foto9.jpg" style="height:200px;"></div>
+    <p>Karl Arnold Sr., i njohur gjithashtu si The Fox, ishte një vrasës serial që kishte në shënjestër familjet. Ai u kap nga FBI pasi vrau 8 familje. Paditësi në këtë çështje ishte një nga avokatët më të mirë, Calista Reid, dhe arriti të dënojë i pandehuri gjashtë burgim të përjetshëm. Me këtë tha, komuniteti ynë është pak më i sigurt</p>
+
+<div class="main">
+    <br>
+    <h2>Çështjet më të fundit</h2>
+    <h5>Carl Buford, Dec 22, 2022</h5>
+    <img src="foto13.jpg" style="height:200px;">
+    <p>Carl Buford është një ngacmues fëmijësh,pedofil dhe vrasës serial.Pretendohej të ishte një hero i komunitetit, por në vend të kësaj ai ishte personi më i tmerrshëm atje. Ai ngacmoi më shumë se 55 djalë të ri dhe vrau 3. Më në fund pasi u kap, ai u ndoq penalisht në gjykatë dhe falë Alana Spiro, CEO & Themeluese e Alana Enterprise, ai u dënua me burgim të përjetshëm plus 15 vjet.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h4>Kur suksesi varet nga reputacioni dhe këshilltari juaj ligjor, keni nevojë për një avokat të cilit mund t'i besoni</h4>
+</div>
+
+</body>
+</html>
